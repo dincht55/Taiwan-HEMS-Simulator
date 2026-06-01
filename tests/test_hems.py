@@ -1,7 +1,7 @@
 """test_hems.py — HEMS 模擬器整合測試（合併模組 1–5 的 pytest）。
 
 由原 test_electrical_base / test_solar_pv / test_battery_charge /
-test_power_dispatch / test_hems_simulation 合併而成，涵蓋 `00_協作流程` §4 各模組驗收：
+test_power_dispatch / test_hems_simulation 合併而成，涵蓋 `00_開發指南` §4 各模組驗收：
 - 模組 1：config 載入/覆寫/驗證、kWh 換算、效率、耦合、功率平衡殘差。
 - 模組 2：太陽能輸出形狀/非負/夜間零/年單位發電合理/簡化模型退回。
 - 模組 3：SOC 動態、夾限、充電來源優先序、放電效率、衰減成本、AC/DC 耦合。
