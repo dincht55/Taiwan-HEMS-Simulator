@@ -1,0 +1,7 @@
+numpy
+pandas
+pvlib
+pulp
+matplotlib
+numba
+python-dotenv
