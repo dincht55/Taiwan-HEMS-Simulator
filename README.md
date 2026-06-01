@@ -1,5 +1,8 @@
 # 台灣家庭能源管理系統模擬器（Taiwan HEMS Simulator）
 
+[![CI](https://github.com/dincht55/taiwan-HEMS-simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/dincht55/taiwan-HEMS-simulator/actions/workflows/ci.yml)
+
+
 模擬「太陽能板 + 電池 + 市電」在台電分時電價下的能源調度，估算節電與經濟效益。
 以 pvlib 計算在地日照、規則式/MILP 策略逐時調度，並輸出自用率、自給率、年電費與回本年限。
 預設地點為高雄市前鎮區，可用內建的設定精靈一鍵切換到任何地區。
